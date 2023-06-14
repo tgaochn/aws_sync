@@ -76,6 +76,7 @@ fi
 code-server --install-extension ~/SageMaker/vscode/GitHub.copilot-nightly-1.88.149.vsix --force
 code-server --install-extension ~/SageMaker/vscode/gtfish1988.gtfish01-0.1.0.vsix --force
 code-server --install-extension ~/SageMaker/vscode/gtfish1988.gtfish13-0.1.0.vsix --force
+code-server --install-extension ~/SageMaker/vscode/gtfish1988.gtfish12-0.1.1.vsix --force
 code-server --install-extension ~/SageMaker/vscode/gizak.shortcuts-0.0.1.vsix --force
 
 EOF
