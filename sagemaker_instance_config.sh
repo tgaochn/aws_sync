@@ -1,18 +1,18 @@
 # download codeserver
-if [ -d "~/SageMaker/vscode" ]; then
+if [ -d "/home/ec2-user/SageMaker/vscode" ]; then
     # Folder exists
-    cd ~/SageMaker/vscode
+    cd /home/ec2-user/SageMaker/vscode
 else
     # Folder does not exist
-    mkdir -p ~/SageMaker/vscode/templateGenerator
-    cd ~/SageMaker/vscode/templateGenerator
+    mkdir -p /home/ec2-user/SageMaker/vscode/templateGenerator
+    cd /home/ec2-user/SageMaker/vscode/templateGenerator
     wget https://github.com/tgaochn/aws_sync/raw/main/vsc_extensions/templateGenerator/{__name__.1_notebook_sql}.ipynb
     wget https://github.com/tgaochn/aws_sync/raw/main/vsc_extensions/templateGenerator/{__name__.2_python}.py
     wget https://github.com/tgaochn/aws_sync/raw/main/vsc_extensions/templateGenerator/{__name__.3_notebook_model_manual}.ipynb
     wget https://github.com/tgaochn/aws_sync/raw/main/vsc_extensions/templateGenerator/{__name__.4_notebook_model_sagemaker}.ipynb
 
     
-    cd ~/SageMaker/vscode
+    cd /home/ec2-user/SageMaker/vscode
 
     # download vsc extensions and other stuff
     wget https://github.com/tgaochn/aws_sync/raw/main/vsc_extensions/GitHub.copilot-nightly-1.88.149.vsix
