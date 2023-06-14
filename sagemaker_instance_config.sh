@@ -12,7 +12,7 @@ else
     wget https://github.com/tgaochn/aws_sync/raw/main/vsc_extensions/templateGenerator/{__name__.3_notebook_model_manual}.ipynb
     wget https://github.com/tgaochn/aws_sync/raw/main/vsc_extensions/templateGenerator/{__name__.4_notebook_model_sagemaker}.ipynb
 
-    # download vsc extensions and other stuff
+    # ! download vsc extensions and other stuff
     mkdir -p /home/ec2-user/SageMaker/vscode/extension
     cd /home/ec2-user/SageMaker/vscode/extension
     wget https://github.com/tgaochn/aws_sync/raw/main/vsc_extensions/GitHub.copilot-nightly-1.88.149.vsix
