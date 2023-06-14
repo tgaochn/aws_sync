@@ -6,10 +6,10 @@ else
     # Folder does not exist
     mkdir -p ~/SageMaker/vscode/templateGenerator
     cd ~/SageMaker/vscode/templateGenerator
-    wget https://github.com/tgaochn/aws_sync/raw/main/vsc_extensions/templateGenerator/{__name__.1_notebook_sql}
+    wget https://github.com/tgaochn/aws_sync/raw/main/vsc_extensions/templateGenerator/{__name__.1_notebook_sql}.ipynb
     wget https://github.com/tgaochn/aws_sync/raw/main/vsc_extensions/templateGenerator/{__name__.2_python}.py
-    wget https://github.com/tgaochn/aws_sync/raw/main/vsc_extensions/templateGenerator/{__name__.3_notebook_model_manual}
-    wget https://github.com/tgaochn/aws_sync/raw/main/vsc_extensions/templateGenerator/{__name__.4_notebook_model_sagemaker}
+    wget https://github.com/tgaochn/aws_sync/raw/main/vsc_extensions/templateGenerator/{__name__.3_notebook_model_manual}.ipynb
+    wget https://github.com/tgaochn/aws_sync/raw/main/vsc_extensions/templateGenerator/{__name__.4_notebook_model_sagemaker}.ipynb
 
     
     cd ~/SageMaker/vscode
