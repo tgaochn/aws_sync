@@ -22,8 +22,8 @@ alias viv='vim ~/.vimrc'
 alias vib='vim ~/.bashrc'
 
 ## WORKSPACE
-alias w1='cd "~/Sagemaker"'
-alias w2=''
+alias w1='cd "/home/jovyan/butterfly/src/notebooks"'
+alias w2='cd "~/Sagemaker"'
 alias w3=''
 alias w4=''
 alias q1='nvidai-smi'
@@ -34,3 +34,6 @@ alias e1=''
 alias e2=''
 alias e3=''
 alias e4=''
+
+## use working folder by default
+[ -d /home/jovyan/butterfly/src/notebooks ] && cd /home/jovyan/butterfly/src/notebooks
