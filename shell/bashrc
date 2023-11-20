@@ -35,5 +35,15 @@ alias e2=''
 alias e3=''
 alias e4=''
 
-## use working folder by default
+## git short cmd
+function git() {
+  case $* in
+    st) shift 1; command git status;;
+    br* ) shift 1; command git branch "$@" | cat ;;
+    co* ) shift 1; command git checkout "$@" ;;
+    * ) command git "$@" ;;
+  esac
+}
+
+## use working folder by default for Kubeflow notebook
 [ -d /home/jovyan/butterfly/src/notebooks ] && cd /home/jovyan/butterfly/src/notebooks
